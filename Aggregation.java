@@ -1,0 +1,13 @@
+package Railworld_India_PVT_Task;
+
+public class Aggregation {
+        String city,state,country;
+
+        public Aggregation(String city, String state, String country) {
+            this.city = city;
+            this.state = state;
+            this.country = country;
+        }
+
+    }
+
