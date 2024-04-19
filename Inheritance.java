@@ -24,8 +24,9 @@ class Triangle2 extends shape{
     }
 }
 class Circle extends shap2{
-    public void area(int r){
+    public double area(int r){
         System.out.println((3.14)*r*r);
+        return 0;
     }
 }
 
