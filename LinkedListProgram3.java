@@ -9,7 +9,7 @@ class Node{
         this.next = null;
     }
 }
-class LinkedList{
+class LinkedList<I extends Number> {
     Node head;
     public void insert(int data){
         Node newNode = new Node(data);
@@ -35,7 +35,7 @@ class LinkedList{
 }
 public class LinkedListProgram3 {
     public static void main(String[] args) {
-        LinkedList list = new LinkedList();
+        LinkedList<Number> list = new LinkedList<Number>();
         list.insert(1);
         list.insert(2);
         list.insert(3);
